@@ -1,19 +1,12 @@
 #include "Enemy.h"
-#include "stdafx.h"
-
-Enemy::Enemy()
-{
-	a
-}
+#include "stdafx.h"}
 
 Enemy::~Enemy()
 {
+
 }
 
-Enemy::Enemy(int _lvl, int _maxHp, int _maxMana)
+Enemy::Enemy(int _lvl, int _maxHp, int _maxMana, std::string name)
 {
-}
 
-Enemy::Enemy(Enemy & _enemy)
-{
 }

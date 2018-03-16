@@ -8,8 +8,6 @@ private:
 	int armorValue;
 
 public:
-	Armor();
-	~Armor();
 	Armor(int _armorValue, std::string _name);
 
 	int getArmorValue();
