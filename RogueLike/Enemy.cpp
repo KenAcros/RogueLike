@@ -3,7 +3,7 @@
 
 Enemy::Enemy()
 {
-	
+	a
 }
 
 Enemy::~Enemy()

@@ -17,8 +17,8 @@ protected:
 public:
 	Entity();
 	~Entity();
-	Entity(int _lvl, int _maxHp, int _maxMana);
-	Entity(Entity &_enemy);
+	Entity(int _lvl, int _maxHp, int _maxMana, std::string name);
+	Entity(Entity &_entity);
 
 	int getLevel();
 	void setLevel(int _lvl);
@@ -27,7 +27,9 @@ public:
 	int getMana();
 	void useMana(int _manaCost);
 	std::string getName();
+	void setWeapon(Weapon _weapon);
 	Weapon getWeapon();
+	void setArmor(Armor _armor);
 	Armor getArmor();
 	int getMaxHp();
 	int getMaxMana();

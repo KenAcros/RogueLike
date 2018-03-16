@@ -2,15 +2,11 @@
 #include "Entity.h"
 
 
-class Enemy
+class Enemy : public Entity
 {
 private:
-	Entity entity;
 
 public:
-	Enemy();
-	~Enemy();
-	Enemy(int _lvl, int _maxHp, int _maxMana);
-	Enemy(Enemy &_enemy);
+
 };
 
