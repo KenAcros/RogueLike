@@ -47,29 +47,5 @@
     <ClCompile Include="RogueLike.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Armor.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Spell.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Weapon.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
