@@ -3,32 +3,7 @@
 
 Entity::Entity()
 {
-}
 
-Entity::~Entity()
-{
-}
-
-Entity::Entity(int _lvl, int _maxHp, int _maxMana)
-{
-	if (_lvl > 0) lvl = _lvl;
-	else lvl = 0;
-	if (_maxHp > 0) maxHp = _maxHp;
-	else maxHp = 0;
-	if (_maxMana > 0) maxMana = _maxMana;
-	else maxMana = 0;
-}
-
-Entity::Entity(Entity &_entity)
-{
-	this->name = _entity.getName();
-	this->weapon = _entity.getWeapon();
-	this->armor = _entity.getArmor();
-	this->maxHp = _entity.getMaxHp();
-	this->maxMana = _entity.getMaxMana();
-	this->lvl = _entity.getLevel();
-	this->hp = this->getMaxHp();
-	this->mana = this->getMaxMana();
 }
 
 int Entity::getLevel()
@@ -52,6 +27,11 @@ void Entity::takeDamage(int _damage)
 	hp -= _damage;
 }
 
+void Entity::attack(Entity & _entity)
+{
+	_entity.takeDamage(weapon.getDamage());
+}
+
 int Entity::getMana()
 {
 	return mana;
@@ -67,9 +47,19 @@ std::string Entity::getName()
 	return name;
 }
 
+void Entity::setWeapon(Weapon _weapon)
+{
+	weapon = _weapon;
+}
+
 Weapon Entity::getWeapon()
 {
 	return weapon;
+}
+
+void Entity::setArmor(Armor _armor)
+{
+	armor = _armor;
 }
 
 Armor Entity::getArmor()

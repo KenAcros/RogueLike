@@ -11,14 +11,17 @@ protected:
 	int maxHp;
 	int mana;
 	int maxMana;
-	Weapon weapon;
-	Armor armor;	
+	Weapon weapon = Weapon(0,"");
+	Armor armor = Armor(0,"");	
+	Entity();
 	
 public:
+
 	int getLevel();
 	void setLevel(int _lvl);
 	int getHp();
 	void takeDamage(int _damage);
+	void attack(Entity & _entity);
 	int getMana();
 	void useMana(int _manaCost);
 	std::string getName();

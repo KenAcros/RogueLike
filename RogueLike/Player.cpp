@@ -9,6 +9,7 @@ Player::Player(std::string _name, int _difficultyLevel)
 
 void Player::savePlayerState()
 {
+	//TODO : write player data in a savefile. Do when file gestion is added to the project 
 }
 
 int Player::getRoomNumber()

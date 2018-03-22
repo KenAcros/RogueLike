@@ -2,7 +2,6 @@
 class Spell
 {
 public:
-	Spell();
-	~Spell();
+		
 };
 
