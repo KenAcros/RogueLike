@@ -6,6 +6,34 @@ Entity::Entity()
 
 }
 
+int Entity::getPosX()
+{
+	return posX;
+}
+
+void Entity::setPosX(int _posX)
+{
+	if (_posX >= 0)
+	{
+		posX = _posX;
+	}
+	else posX = 0;
+}
+
+int Entity::getPosY()
+{
+	return posY;
+}
+
+void Entity::setPosY(int _posY)
+{
+	if (_posY >= 0)
+	{
+		posY = _posY;
+	}
+	else posY = 0;
+}
+
 int Entity::getLevel()
 {
 	return lvl;

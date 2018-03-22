@@ -11,12 +11,17 @@ protected:
 	int maxHp;
 	int mana;
 	int maxMana;
+	int posX;
+	int posY;
 	Weapon weapon = Weapon(0,"");
 	Armor armor = Armor(0,"");	
 	Entity();
 	
 public:
-
+	int getPosX();
+	void setPosX(int _posX);
+	int getPosY();
+	void setPosY(int _posY);
 	int getLevel();
 	void setLevel(int _lvl);
 	int getHp();

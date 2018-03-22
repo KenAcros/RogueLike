@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Armor" Collapsed="true">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+  <Class Name="Armor">
+    <Position X="7" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAEEAAAAAA=</HashCode>
       <FileName>Armor.h</FileName>
@@ -15,13 +15,13 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Spell" Collapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Spell.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Weapon" Collapsed="true">
+  <Class Name="Weapon">
     <Position X="5.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAgAAAAAAAAAAAAAAEAAgAAAAEAAAAAAA=</HashCode>
@@ -38,7 +38,7 @@
   <Class Name="Entity" Collapsed="true">
     <Position X="1.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAAgAAAAABAAAAEAAAAACAAEARCEEIBEIBgCACE=</HashCode>
+      <HashCode>EAAAAAAgAAAAABAAAAEAAAAACAAEARCEEIBk4BgGACE=</HashCode>
       <FileName>Entity.h</FileName>
     </TypeIdentifier>
   </Class>
